@@ -12,19 +12,16 @@
 
 ```
    ├── app/
-   │   ├── src/
-   │   │   ├── main/
-   │   │   │   ├── java/
-   │   │   │   ├── res/
-   │   │   │   └── AndroidManifest.xml
-   ├── gradle/
-   ├── .gitignore
-   ├── README.md
-   ├── build.gradle
-   ├── gradle.properties
-   ├── gradlew
-   ├── gradlew.bat
-   └── settings.gradle
+   │   └── src/
+   │       └── main/
+   │       │   ├── java/com/example/embeddedcomputervisionsystemproject/ 
+   │       │   │                    ├── MainActivity.java            # 主要 Activity，啟動時顯示的第一個畫面
+   │       │   │                    └── ModelLoaderWrapper.kt        # 封裝 SceneView 的模型加載邏輯
+   │       │   ├── res/layout/                                       # 佈局檔案，定義 UI 元素的結構
+   │       │   └── AndroidManifest.xml                               # 配置檔，定義應用的組件、權限等
+   │       └── build.gradle                                          # 定義了專案的構建邏輯和依賴
+   └── settings.gradle                                               # 設定多模組專案的根目錄，指定哪些模組包含在構建中
+   └── qr-code.png                                                   # 專案中使用的 QR Code 測試圖片檔案
 ```
 # 五、開發環境
 - 開發工具：Android Studio
