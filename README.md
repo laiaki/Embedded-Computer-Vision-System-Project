@@ -7,7 +7,7 @@
 1. QR Code 掃描：快速識別展品資訊，QR Code內容為展品資源識別資料
 2. 3D 模型展示：動態載入並展示展品的 3D 立體模型
 3. 介紹展品：提供文字介紹，讓觀眾了解展品的背景與故事
->3D 模型及文字介紹放在https://github.com/laiaki/exhibit-assets裡
+>3D 模型及文字介紹放在 https://github.com/laiaki/exhibit-assets
 # 四、專案結構
 
 ```
