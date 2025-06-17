@@ -7,6 +7,7 @@
 1. QR Code 掃描：快速識別展品資訊，QR Code內容為展品資源識別資料
 2. 3D 模型展示：動態載入並展示展品的 3D 立體模型
 3. 介紹展品：提供文字介紹，讓觀眾了解展品的背景與故事
+>3D 模型及文字介紹放在https://github.com/laiaki/exhibit-assets裡
 # 四、專案結構
 
 ```
@@ -30,10 +31,10 @@
 - 語言：Java
 - 建構工具：Gradle
 # 六、使用說明
-1.克隆此專案：
+1. 克隆此專案：
 ```
-      git clone https://github.com/laiaki/Embedded-Computer-Vision-System-Project.git
+git clone https://github.com/laiaki/Embedded-Computer-Vision-System-Project.git
 ```
-2.開啟 Android Studio，選擇「Open an existing Android Studio project」，並選擇專案資料夾
-3.等待 Gradle 同步完成後，連接 Android 裝置或啟動模擬器，點擊「Run」以執行應用程式
-4.掃描qr-code.png
+2. 開啟 Android Studio，選擇「Open an existing Android Studio project」，並選擇專案資料夾
+3. 等待 Gradle 同步完成後，連接 Android 裝置或啟動模擬器，點擊「Run」以執行應用程式
+4. 掃描qr-code.png
