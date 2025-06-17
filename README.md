@@ -9,7 +9,7 @@
 3. 介紹展品：提供文字介紹，讓觀眾了解展品的背景與故事。
 # 四、專案結構
 
-.. code-block::
+.. code-block:: text
 
    ├── app/
    │   ├── src/
@@ -25,7 +25,6 @@
    ├── gradlew
    ├── gradlew.bat
    └── settings.gradle
-
 # 五、開發環境
 - 開發工具：Android Studio
 - 語言：Java
