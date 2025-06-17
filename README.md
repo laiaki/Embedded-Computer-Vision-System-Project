@@ -9,7 +9,7 @@
 3. 介紹展品：提供文字介紹，讓觀眾了解展品的背景與故事
 # 四、專案結構
 
-.. code-block:: text
+```
    ├── app/
    │   ├── src/
    │   │   ├── main/
@@ -24,14 +24,16 @@
    ├── gradlew
    ├── gradlew.bat
    └── settings.gradle
+```
 # 五、開發環境
 - 開發工具：Android Studio
 - 語言：Java
 - 建構工具：Gradle
 # 六、使用說明
 1.克隆此專案：
-   .. code-block:: bash
+```
       git clone https://github.com/laiaki/Embedded-Computer-Vision-System-Project.git
+```
 2.開啟 Android Studio，選擇「Open an existing Android Studio project」，並選擇專案資料夾
 3.等待 Gradle 同步完成後，連接 Android 裝置或啟動模擬器，點擊「Run」以執行應用程式
 4.掃描qr-code.png
