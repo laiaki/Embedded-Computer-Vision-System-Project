@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <io.github.sceneview.SceneView
+            android:id="@+id/arSceneView"
+            android:layout_width="match_parent"
+            android:layout_height="681dp"
+            />
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        tools:ignore="ExtraText" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+</LinearLayout>
