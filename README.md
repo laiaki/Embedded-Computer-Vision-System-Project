@@ -28,10 +28,10 @@
 - 語言：Java
 - 建構工具：Gradle
 # 六、使用說明
-1. 克隆此專案：
+1. 在Terminal中clone此專案：
 ```
 git clone https://github.com/laiaki/Embedded-Computer-Vision-System-Project.git
 ```
-2. 開啟 Android Studio，選擇「Open an existing Android Studio project」，並選擇專案資料夾
+2. 在Open中選擇clone完生成的專案資料夾
 3. 等待 Gradle 同步完成後，連接 Android 裝置或啟動模擬器，點擊「Run」以執行應用程式
 4. 掃描qr-code.png
